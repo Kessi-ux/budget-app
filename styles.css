@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.registration{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    font-family: sans-serif;
+    color: #0a0a23;
+}
+
+h1{
+    font-size: 1.8rem;
+    color: blue;
+    margin: 0 auto;
+    padding: 1.5rem 0rem
+}
+
+input, select {
+    margin: 10px 0 0 0;
+    width: 50%;
+    min-height: 2em;
+    border: 1px solid #0a0a23;
+    margin-bottom: 1em;
+}
+
+h6{
+    display: block;
+    font-style: italic;
+    font-weight: normal;
+    padding: 1rem 0 0.75rem;
+}
+
+button {
+    background-color: rgba(0, 255, 0, 0.465);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 30%;
+    font-size: 1.1rem;
+    height: 2em;
+    min-width: 30px;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.box-cover{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box{
+    border: 0.5px solid grey;
+    width: 200px;
+    height: 40px;
+    padding: 2px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.box:first-of-type{
+    margin-left: 10px;
+    }
+
+.box:last-of-type{
+    margin-right: 10px;
+    }
+
+.icon-container{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 255, 0, 0.465);
+    border-radius: 50%;
+}
+
+p{
+    font-size: 10px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:  #111111a1;
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+
+  .logo a:hover {
+    color: #f1f1f1;
+  }
+
+  .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+a{
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: medium;
+}
